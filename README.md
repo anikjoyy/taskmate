@@ -1,3 +1,3 @@
 # TaskMate App
 
-Project Live Link: [Live Link](http://localhost:3000).
+Project Live Link: [Live Link](https://taskmate-app3.netlify.app/)

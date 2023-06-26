@@ -2,9 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Logo from '../assets/logo.svg';
 
 const Header = () => {
-  const [theme, setTheme] = useState(
-    JSON.parse(localStorage.getItem('theme')) || 'medium'
-  );
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'medium');
 
   useEffect(() => {
     localStorage.setItem('theme', JSON.stringify(theme));
